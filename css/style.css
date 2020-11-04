@@ -46,3 +46,24 @@ header{
    font-size: 10px;
    color: grey;
 }
+
+.wrapper > li{
+   list-style: none;
+}
+.wrapper > li:not(:last-child){
+   list-style: none;
+   margin-bottom: 30px;
+}
+
+.wrapper > li > a{
+   text-decoration: none;
+   color:grey;
+
+}
+
+.azienda-utility,.tariffe-utility,.conti-utility,.prodotti-utility,.aiuto-utility,.lingua-utility{
+   border: 1px solid black;
+   padding: 10px 20px;
+   display: none;
+   width: 150px;
+}
